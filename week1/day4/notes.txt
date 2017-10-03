@@ -1,0 +1,28 @@
+Level of importance on styling
+    1. class
+    2. id
+    3. style
+    4. !important
+
+Proper way to do a nav would be: 
+    <header>
+        <nav>
+            <ul>
+                <li>Home</li>
+                <li>About</li>
+            </ul>
+        </nav>
+    <header>
+
+display: inline-block; - 
+
+Fundamentaly all web pages are broken down into blocks with other blocks inside.
+
+
+Makes your boxes the exact size that you specify not box size plus padding
+
+    box-sizing: border-box;
+    }
+    *, *:before, *:after {
+    box-sizing: inherit;
+    }

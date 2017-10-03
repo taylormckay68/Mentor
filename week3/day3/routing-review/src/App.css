@@ -1,0 +1,19 @@
+.App {
+  text-align: center;
+}
+
+nav {
+  height: 50px;
+  width: 100vw;
+  border-bottom: 1px solid black;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  font-size: 22px;
+}
+
+.list {
+  list-style: none;
+  font-size: 20px;
+  line-height: 50px;
+}

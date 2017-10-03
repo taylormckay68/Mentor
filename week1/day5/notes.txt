@@ -1,0 +1,39 @@
+Component based.  Components made up of parent child relationships.  Children components can be used under other parent components as long as the data doesn't need to be different.
+
+
+Virtual DOM - staging area for the render.  Keeps track of all changes and before sending to the DOM to render.
+    virtual DOM -> DOM -> render
+
+create-react-app [app name]
+    Tool to create react apps and set up file structure
+
+    npm start - starts running the app
+
+
+Compontent names must always be Pascal case ie <App />
+
+Never do default and destructuring.  If no default, destructure.
+
+class App extends Component {
+    constructor() {
+        super();
+
+        this.state={
+            happiness: 3
+        }
+    }
+    makeMoreHappy() {
+        let nextHappiness = this.state.happiness + 1;
+        let happinessColor = 'red';
+        if(nextHappiness > )
+    }
+}
+
+render() {
+    return (
+        <div
+    )
+}
+
+
+setState tells react to re-render.  If you just declare this.state, react does not re-render.

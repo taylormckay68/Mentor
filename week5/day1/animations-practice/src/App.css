@@ -1,0 +1,12 @@
+.App {
+  background: #C5C3C3;
+  height: 100vh;
+  width: 100vw;
+}
+
+.logo {
+  background: #C5C3C3;
+  border: none;
+  height: 50px;
+  width: 50px;
+}

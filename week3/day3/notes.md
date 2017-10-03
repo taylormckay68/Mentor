@@ -1,0 +1,25 @@
+CREATE TABLE [table name] {
+    [column name] [data type] [constraints - optional]
+}
+
+CREATE TABLE products (
+    id SERIAL PRIMARY KEY,
+    name TEXT,
+    price FLOAT
+);
+
+where BillingCountry not in ('USA', 'Germany')
+
+##DATATYPES
+- NUMERIC TYPES
+    - FLOAT - 15 NUMBERS AFTER DECIMAL POINT
+    - INTEGER - ROUNDS NUMBERS
+    - DECIMAL - GOOD FOR PRECISE NUMBERS
+- CHARACTER TYPERS
+    - TEXT - CHARACTER LENGTH IS UNLIMITED
+    - VARCHAR(n) - CHARACTER LENGTH IS LIMITED
+    - 'I''m super cool.' - TWO SINGLE QUOTES FOR A QUOTE IN A STRING
+
+## SQL STATEMENT
+- ALSO KNOWN AS QUERY
+- ENDS WITH A SEMI COLON

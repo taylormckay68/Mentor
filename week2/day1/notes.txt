@@ -1,0 +1,26 @@
+var func2 = func.bind(obj) -> obj is the object to bind the function to.
+
+State is for parents, props is for your children.
+
+props take info from parents to children.  Functions are the way to pass information back to parent.
+
+When you send a function to a child as a prop, the keyword this breaks.
+
+Pizza {
+    render() {
+        for( loop ) {
+            <PizzaTopping name={tops[i].name} amt=/>
+        } 
+    }
+}
+
+PizzaTopping {
+    render() {
+        this.props.name
+        this.props.amt
+        this.props.add
+    }
+}
+
+componentWillReceiveProps - when prop changes then the function fires.
+compon
